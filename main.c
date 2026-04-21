@@ -89,8 +89,8 @@ int main() {
     
     printf("Semester I GPA: %.2f\n", gpa1);
     printf("Semester II GPA: %.2f\n", gpa2);
-    printf("\nCGPA: %.2f\n", cgpa);
-    printf("Classification: %s\n", classification);
+    printf("CGPA: %.2f\n", cgpa);
+    printf("Classification: %s", classification);
     
     // Display report
     printf("\n--- Academic Report ---\n");
@@ -101,7 +101,7 @@ int main() {
     }
     printf("Semester I GPA: %.2f\n", gpa1);
     
-    printf("\nSemester II:\n");
+    printf("Semester II:\n");
     // printf("Code\tScore\tGrade\tGP\tCU\tWC\n");
     for(i=0; i<8; i++) {
         printf("%s\t%d\t%c\t%d\t%d\t%d\n", sem2Codes[i], sem2Scores[i], sem2Grades[i], sem2Points[i], sem2Credits[i], sem2Points[i]*sem2Credits[i]);
